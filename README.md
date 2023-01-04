@@ -19,7 +19,7 @@ Additional considerations:
 
 -   Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
 -   Consider your data model.
-    -   What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need?
+    -   What kinds of objects (i.e., Dogs, Friends, To dos, etc) will you need?
     -   What are the key/value pairs?
     -   What arrays might you need?
     -   What needs to live in a persistence layer?
