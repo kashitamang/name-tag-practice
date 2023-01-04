@@ -10,12 +10,13 @@ console.log('nameDisplay', nameDisplay);
 console.log('nameInput', nameInput);
 
 /* State */
-nameDisplay.textContent = 'Kermit';
 
 /* Events */
 
 updateBtn.addEventListener('click', () => {
     console.log('clicking update button');
+    nameDisplay.textContent = nameInput.value;
+    nameInput.value = '';
 });
 
 /* Display Functions */
