@@ -1,11 +1,12 @@
-/* Imports */
+const nameInput = document.getElementById('name-input');
+const nameDisplay = document.getElementById('name');
+const updateBtn = document.getElementById('update-btn');
 
-/* Get DOM Elements */
+// console.log('nameDisplay', nameDisplay);
+// console.log('nameInput', nameInput);
 
-/* State */
-
-/* Events */
-
-/* Display Functions */
-
-// (don't forget to call any display functions you want to run on page load!)
+updateBtn.addEventListener('click', () => {
+    // console.log('clicking update button');
+    nameDisplay.textContent = nameInput.value;
+    nameInput.value = '';
+});
